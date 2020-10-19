@@ -14,5 +14,11 @@ class SplashViewController: UIViewController{
         super.viewDidLoad()
         
     }
-    
+        
+    override func viewDidAppear(_ animated: Bool) {
+        
+        //if we don't have valid session
+        self.performSegue(withIdentifier: "goToLogin", sender: nil)
+        
+    }
 }
