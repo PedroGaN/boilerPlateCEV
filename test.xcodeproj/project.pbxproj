@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1F2C04EB253E07B7001ABD01 /* boilerplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = boilerplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F2C04EB253E07B7001ABD01 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F2C04EE253E07B7001ABD01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F2C04F0253E07B7001ABD01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1F2C04F5253E07B7001ABD01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		1F2C04E2253E07B7001ABD01 = {
 			isa = PBXGroup;
 			children = (
-				1F2C04ED253E07B7001ABD01 /* boilerplate */,
+				1F2C04ED253E07B7001ABD01 /* test */,
 				1F2C04EC253E07B7001ABD01 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +54,12 @@
 		1F2C04EC253E07B7001ABD01 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1F2C04EB253E07B7001ABD01 /* boilerplate.app */,
+				1F2C04EB253E07B7001ABD01 /* test.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1F2C04ED253E07B7001ABD01 /* boilerplate */ = {
+		1F2C04ED253E07B7001ABD01 /* test */ = {
 			isa = PBXGroup;
 			children = (
 				1F2C050B253E0979001ABD01 /* Application */,
@@ -69,7 +69,7 @@
 				1F2C04F9253E07B8001ABD01 /* LaunchScreen.storyboard */,
 				1F2C04FC253E07B9001ABD01 /* Info.plist */,
 			);
-			path = boilerplate;
+			path = test;
 			sourceTree = "<group>";
 		};
 		1F2C0502253E0855001ABD01 /* Views */ = {
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1F2C04EA253E07B7001ABD01 /* boilerplate */ = {
+		1F2C04EA253E07B7001ABD01 /* test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F2C04FF253E07B9001ABD01 /* Build configuration list for PBXNativeTarget "boilerplate" */;
+			buildConfigurationList = 1F2C04FF253E07B9001ABD01 /* Build configuration list for PBXNativeTarget "test" */;
 			buildPhases = (
 				1F2C04E7253E07B7001ABD01 /* Sources */,
 				1F2C04E8253E07B7001ABD01 /* Frameworks */,
@@ -107,9 +107,9 @@
 			);
 			dependencies = (
 			);
-			name = boilerplate;
+			name = test;
 			productName = boilerplate;
-			productReference = 1F2C04EB253E07B7001ABD01 /* boilerplate.app */;
+			productReference = 1F2C04EB253E07B7001ABD01 /* test.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -127,7 +127,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1F2C04E6253E07B7001ABD01 /* Build configuration list for PBXProject "boilerplate" */;
+			buildConfigurationList = 1F2C04E6253E07B7001ABD01 /* Build configuration list for PBXProject "test" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -140,7 +140,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1F2C04EA253E07B7001ABD01 /* boilerplate */,
+				1F2C04EA253E07B7001ABD01 /* test */,
 			);
 		};
 /* End PBXProject section */
@@ -345,7 +345,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1F2C04E6253E07B7001ABD01 /* Build configuration list for PBXProject "boilerplate" */ = {
+		1F2C04E6253E07B7001ABD01 /* Build configuration list for PBXProject "test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F2C04FD253E07B9001ABD01 /* Debug */,
@@ -354,7 +354,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F2C04FF253E07B9001ABD01 /* Build configuration list for PBXNativeTarget "boilerplate" */ = {
+		1F2C04FF253E07B9001ABD01 /* Build configuration list for PBXNativeTarget "test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F2C0500253E07B9001ABD01 /* Debug */,
