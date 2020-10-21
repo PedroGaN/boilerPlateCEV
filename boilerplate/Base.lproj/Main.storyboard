@@ -196,6 +196,7 @@
                         <segue destination="r6u-7V-1iN" kind="relationship" relationship="viewControllers" id="LOe-QX-bHW"/>
                         <segue destination="mSg-Ba-dv8" kind="relationship" relationship="viewControllers" id="6HQ-Ge-Xgo"/>
                         <segue destination="WmX-uL-125" kind="relationship" relationship="viewControllers" id="nFJ-JH-CR3"/>
+                        <segue destination="77m-sp-5eA" kind="relationship" relationship="viewControllers" id="XdZ-U0-ZIo"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kvn-zd-zga" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -219,10 +220,75 @@
             </objects>
             <point key="canvasLocation" x="-1600" y="1632"/>
         </scene>
+        <!--NavigationController-->
+        <scene sceneID="xyI-5n-fS9">
+            <objects>
+                <navigationController title="NavigationController" id="77m-sp-5eA" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Table" image="table" catalog="system" id="PUM-BK-gNy"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="nW4-5K-w3D">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vkh-OG-acp" kind="relationship" relationship="rootViewController" id="NSd-F2-dat"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nnp-nA-mVr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-765" y="1632"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="9HA-Ow-xFI">
+            <objects>
+                <tableViewController id="vkh-OG-acp" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Q7h-yb-eXf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="KSg-oU-eiz">
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KSg-oU-eiz" id="kR1-eY-PHq">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="Gs6-3t-t8a" kind="showDetail" id="uxs-1G-DBu"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="vkh-OG-acp" id="QdW-bh-i93"/>
+                            <outlet property="delegate" destination="vkh-OG-acp" id="b11-Us-i9i"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="YVI-Jl-V57"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FmB-fs-OP7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-765" y="2388"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="IOc-B0-GV1">
+            <objects>
+                <viewController title="Detail View Controller" id="Gs6-3t-t8a" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AAF-ro-PRF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Uyf-wa-Xtj"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VqZ-Rw-FDR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="133" y="2388"/>
+        </scene>
     </scenes>
     <resources>
         <image name="1.circle.fill" catalog="system" width="128" height="121"/>
         <image name="2.circle.fill" catalog="system" width="128" height="121"/>
         <image name="3.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="table" catalog="system" width="128" height="93"/>
     </resources>
 </document>
