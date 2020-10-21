@@ -150,33 +150,33 @@
             </objects>
             <point key="canvasLocation" x="-510" y="114"/>
         </scene>
-        <!--Item 2-->
+        <!--Second-->
         <scene sceneID="pec-B8-E09">
             <objects>
-                <viewController id="mSg-Ba-dv8" sceneMemberID="viewController">
+                <viewController title="Second" id="mSg-Ba-dv8" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fjz-kz-gK1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="zJy-YV-SaA"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="jgi-6U-ZVm"/>
+                    <tabBarItem key="tabBarItem" title="Second" image="2.circle.fill" catalog="system" id="jgi-6U-ZVm"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pzR-AM-txd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2439" y="1632"/>
         </scene>
-        <!--Item 1-->
+        <!--First-->
         <scene sceneID="8lR-Fh-w0P">
             <objects>
-                <viewController id="r6u-7V-1iN" sceneMemberID="viewController">
+                <viewController title="First" id="r6u-7V-1iN" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rDL-5N-Ieg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="jtX-zc-SuV"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="Mh5-r2-86E"/>
+                    <tabBarItem key="tabBarItem" title="First" image="1.circle.fill" catalog="system" id="Mh5-r2-86E"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Gi-YH-L1T" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -205,14 +205,14 @@
         <!--Item 3-->
         <scene sceneID="feZ-ly-VMq">
             <objects>
-                <viewController id="WmX-uL-125" userLabel="Item 3" sceneMemberID="viewController">
+                <viewController title="Third" id="WmX-uL-125" userLabel="Item 3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nmj-Pu-wJG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="3zm-hO-KYA"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="9SY-FZ-2wV"/>
+                    <tabBarItem key="tabBarItem" title="Third" image="3.circle.fill" catalog="system" id="9SY-FZ-2wV"/>
                     <navigationItem key="navigationItem" id="lqt-t5-Jx2"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="42W-HM-tjK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -220,4 +220,9 @@
             <point key="canvasLocation" x="-1600" y="1632"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="1.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="2.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="3.circle.fill" catalog="system" width="128" height="121"/>
+    </resources>
 </document>
